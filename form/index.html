@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="image">
+            <img src="./assets/imageToForm.svg" alt="Image Person">
+        </div>
+        <div class="form-container">
+            <h1>Create Account</h1>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Username">
+                <i class="fas fa-exclamation-circle "><p>Error Message</p></i>
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email">
+                <i class="fas fa-exclamation-circle "><p>Error Message</p></i>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+                <i class="fas fa-exclamation-circle "><p>Error Message</p></i> 
+
+             <div class="form-control">
+                <label for="password-confirmation">Password Confirmation</label>
+                 <input type="password" id="password-confirmation" placeholder="Password Confirm">
+                 <i class="fas fa-exclamation-circle "><p>Error Message</p></i>
+            </div>
+
+            <button class="submit">Send</button>
+        </form>
+    </div>
+    </section>
+    
+    <script src="https://kit.fontawesome.com/f1544d6345.js" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
